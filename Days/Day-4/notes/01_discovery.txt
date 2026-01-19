@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Tue Jan 20 03:15:57 2026 as: nmap -Pn -sS -T4 -oN /home/elysium/cyber-portfolio/day4/notes/01_discovery.txt 192.168.233.101
+Nmap scan report for 192.168.233.101
+Host is up (0.00020s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+9090/tcp open  zeus-admin
+MAC Address: 08:00:27:BC:31:45 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Jan 20 03:15:57 2026 -- 1 IP address (1 host up) scanned in 0.21 seconds

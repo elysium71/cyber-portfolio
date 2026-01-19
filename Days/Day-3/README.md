@@ -30,6 +30,10 @@ sudo ip addr add 192.168.233.101/24 dev enp0s8
 
 in Kali:
 sudo ip addr add 192.168.233.102/24 dev eth1
+sudo dhclient -r eth0
+sudo dhclient eth0
+
+
 
 ## Step 1
 On Kali: 
